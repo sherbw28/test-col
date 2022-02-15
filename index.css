@@ -1,6 +1,32 @@
 .nav{
     height:100px;
     width:100%;
+    text-align: center;
     /*position:fixed;*/
-    background-color: aqua;
 }
+.title{
+    width: 300px;
+    height: 100%;
+    margin: auto auto;
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+}
+.button{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.btn-square {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+  }
+  .btn-square:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+  }
